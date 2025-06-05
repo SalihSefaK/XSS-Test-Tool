@@ -4,7 +4,7 @@ Tersine Mühendislik - FİNAL Projesi
 
 Farklı XSS payload’larını otomatik olarak test eden bir araç. Bir URL'ye gidip param=value yerine 50'den fazla XSS payload'ı dener. Başarılı olursa "vulnerable" olarak raporlar.
 
-# Features / Özellikler
+## Features / Özellikler
 Feature 1: Otomatik XSS Taraması
 Belirtilen URL'de 50+ XSS payload’ı ile test yapar.
 
@@ -23,15 +23,14 @@ Belirli URL parametrelerine odaklanarak tarama yapar.
 Feature 6: Raporlama Desteği
 Sonuçları dışa aktarır; log veya metin dosyası olarak kaydeder.
 
-# Team / Ekip
+## Team / Ekip
 2320191038 - Enis Seha Toprak: Geliştirici / Otomasyon
 2320191019 - Salih Sefa Korkmaz: Payload / Güvenlik Araştırması & Raporlama
 
-# Roadmap / Yol Haritası
+## Roadmap / Yol Haritası
 See our plans in ROADMAP.md
 Yolculuğu görmek için ROADMAP.md dosyasına göz atın.
 
-# Research / Araştırmalar
 ## Research / Araştırmalar
 
 | Topic / Başlık                    | Link                                       | Description / Açıklama                                                               |
