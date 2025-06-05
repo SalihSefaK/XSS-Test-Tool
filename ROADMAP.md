@@ -120,5 +120,24 @@ server = DNSServer(resolver, port=53, address='0.0.0.0')
 server.start_thread()
 
 ```
+## Entegre MITM Betiği
+ARP + DNS Spoofing birleşik bir yapı haline getirilebilir.
+Argüman desteği veya yapılandırma dosyası ile özelleştirilebilir.
+## Test Yöntemleri
+Özellik	Test Adımı
+ARP Spoofing	arp -a ile ağ geçidinin MAC adresini kontrol edin
+DNS Spoofing	nslookup example.com komutu sahte IP döndürmeli
+DHCP Spoofing	ipconfig /renew sonrası DNS adresi değişmeli
+Web Sunucusu	Kurban, sahte web sayfasını görüntüleyebilmeli
 
+##  Karşı Önlemler
+Statik ARP tabloları
+
+DNSSEC kullanımı
+
+HTTPS zorunluluğu
+
+VPN veya segment izolasyonu
+
+İzole test ağı kullanımı
 
