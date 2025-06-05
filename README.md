@@ -59,11 +59,27 @@ pip install -r requirements.txt
 
 Aşağıdaki adımları takip ederek XSS tarama aracınızı çalıştırabilirsiniz:
 
-### 🔧 Run the Project / Projeyi Çalıştırın
+📝 Prepare Input / Giriş Verisini Hazırlayın
+Test etmek istediğiniz URL’yi belirleyin. Tarama yapılacak parametreyi * karakteriyle belirtin.
+Örnek: http://example.com/search?query=*
 
+Run with Arguments / Betiği Argümanlarla Çalıştırın
+Kullanılabilecek temel argümanlar:
 
-python main.py --url "http://hedef-site.com/?param=*" --browser playwright --output results.txt
+--url: Test edilecek URL (parametresi * olan)
 
+--browser: Tarayıcı otomasyonu seçimi (playwright veya selenium)
+
+--output: Sonuçların kaydedileceği dosya adı
+
+Örnek komut: python main.py --url "http://test.com/index.php?q=*" --browser selenium --output results.txt
+
+Check the Output / Çıktıyı Kontrol Edin
+Tarama sonuçları, belirttiğiniz dosyada (results.txt) yer alır.
+Başarılı payload’lar ve varsa XSS türleri burada detaylı şekilde listelenir.
+
+💡 Not: Playwright kullanıyorsanız, ilk çalıştırmadan önce aşağıdaki komutu çalıştırmayı unutmayın:
+playwright install
 
 
 
