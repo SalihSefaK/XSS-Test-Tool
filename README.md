@@ -1,4 +1,3 @@
-Language Count Top Language Last Commit License Status Contributions
 # XSS-Test-Tool
 Tersine Mühendislik - FİNAL Projesi 
 
