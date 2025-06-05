@@ -81,7 +81,7 @@ Başarılı payload’lar ve varsa XSS türleri burada detaylı şekilde listele
 💡 Not: Playwright kullanıyorsanız, ilk çalıştırmadan önce aşağıdaki komutu çalıştırmayı unutmayın:
 playwright install
 
-Topluluk katkılarını memnuniyetle karşılıyoruz! Katkıda bulunmak için:
+## Topluluk katkılarını memnuniyetle karşılıyoruz! Katkıda bulunmak için:
 
 Depoyu fork'layın.
 
@@ -109,6 +109,18 @@ Awesome Library: For enabling X.
 Inspiration Source.
 Special thanks to...
 Teşekkürler: Harika kütüphaneler ve ilham kaynakları için.
+
+## 📬 Contact / İletişim
+
+**Project Maintainers / Proje Sorumluları:**  
+- Enis Seha Toprak – [*enis@medicom.net.tr*]  
+- Salih Sefa Korkmaz – [sefakorkmaz534@gmail.com*]
+
+🔧 Found a bug or have a feature request?  
+Please [open an issue](https://github.com/YOUR_USERNAME/YOUR_REPO/issues) on GitHub.
+
+🐞 Bir hata mı buldunuz ya da öneriniz mi var?  
+[Görüş bildirin veya sorun açın](https://github.com/YOUR_USERNAME/YOUR_REPO/issues).
 
 
 
