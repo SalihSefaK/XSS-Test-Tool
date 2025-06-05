@@ -23,112 +23,24 @@ Belirli URL parametrelerine odaklanarak tarama yapar.
 Feature 6: Raporlama Desteği
 Sonuçları dışa aktarır; log veya metin dosyası olarak kaydeder.
 
-# Zafiyet Tespiti
-Başarılı payload’ları tespit eder ve raporlar.
+# Team / Ekip
+2320191038 - Enis Seha Toprak: Geliştirici / Otomasyon
+2320191019 - Salih Sefa Korkmaz: Payload / Güvenlik Araştırması & Raporlama
 
-# XSS Türü Ayrımı
-Reflected, Stored ve DOM XSS’i ayırt eder.
+# Roadmap / Yol Haritası
+See our plans in ROADMAP.md
+Yolculuğu görmek için ROADMAP.md dosyasına göz atın.
 
-# Tarayıcı Otomasyonu
-Playwright/Selenium ile gerçek tarayıcıda test yapar.
+# Research / Araştırmalar
+## Research / Araştırmalar
 
-# Raporlama
-Sonuçları dosyaya kaydeder, log tutar.
+| Topic / Başlık                    | Link                                       | Description / Açıklama                                                               |
+|----------------------------------|--------------------------------------------|---------------------------------------------------------------------------------------|
+| XSS Payload Analizi              | [researchs/xss-payload-analysis.md](researchs/xss-payload-analysis.md)          | Farklı XSS payload’larının karşılaştırmalı analizi. / XSS payload’larının detaylı incelemesi. |
+| DOM XSS İncelemesi               | [researchs/dom-xss.md](researchs/dom-xss.md)                       | DOM tabanlı XSS açıklarının yapısı ve test yöntemleri. / DOM XSS zafiyetlerinin teknik çözümlemesi. |
+| Playwright vs Selenium Karşılaştırması | [researchs/browser-tools-comparison.md](researchs/browser-tools-comparison.md)  | XSS testlerinde kullanılan iki otomasyon aracının farkları. / Tarayıcı otomasyonu araçlarının değerlendirilmesi. |
+| Add More Research                | *Link to your other research files*        | *Description of the research*                                                         |
 
-# Zafiyet Tespiti
-Başarılı payload'ları tespit edip detaylı olarak raporlar.
 
-# DOM XSS Desteği
-Reflected, Stored ve DOM tabanlı XSS türlerini ayırarak analiz eder.
 
-# Tarayıcı Otomasyonu
-Playwright/Selenium ile gerçek tarayıcı üzerinde test desteği sağlar. (*)
 
-Geliştirilebilirlik
-Payload listesi ve tarama metodolojisi özelleştirilebilir.
-
-Team / Ekip
-219*031 - Ad Soyad: Geliştirici / Otomasyon
-Ad Soyad: Payload / Güvenlik araştırması
-Ad Soyad: UI/UX & Dokümantasyon
-Gerektiğinde daha fazla üye ekleyin.
-
-Roadmap / Yol Haritası
-Projenin yol haritası için ROADMAP.md dosyasına göz atın.
-
-Research / Araştırmalar
-Başlık	Link	Açıklama
-XSS Payload Listesi	researchs/xss-payloads.md	Kapsamlı XSS payload listesinin analizi.
-DOM XSS İncelemesi	researchs/dom-xss-analysis.md	DOM XSS'e özel test yöntemleri ve tespit yolları.
-Başlık	Link	Açıklama
-
-Installation / Kurulum
-Depoyu Klonlayın
-bash
-Kopyala
-Düzenle
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git  
-cd YOUR_REPO
-Sanal Ortam Kurulumu (Önerilen)
-bash
-Kopyala
-Düzenle
-python -m venv venv  
-source venv/bin/activate  # Windows için: venv\Scripts\activate
-Bağımlılıkları Yükleyin
-bash
-Kopyala
-Düzenle
-pip install -r requirements.txt
-Usage / Kullanım
-Projeyi çalıştırın:
-
-bash
-Kopyala
-Düzenle
-python main.py --url "http://target.com/?param=*" --browser playwright --report output.txt
-Adımlar:
-Test edilecek URL'yi hazırlayın. (XSS test edilecek parametreyi * ile işaretleyin)
-
-Komutu çalıştırın. --browser ile playwright veya selenium seçin.
-
-Sonuçları output.txt içinde kontrol edin.
-
-Contributing / Katkıda Bulunma
-Topluluk katkılarına açığız! Katkı sağlamak için:
-
-Reponun bir fork’unu oluşturun.
-
-Fork’unuzu klonlayın:
-
-bash
-Kopyala
-Düzenle
-git clone git@github.com:YOUR_USERNAME/YOUR_REPO.git
-Yeni bir branch oluşturun:
-
-bash
-Kopyala
-Düzenle
-git checkout -b feature/yeni-ozellik
-Değişiklikleri commit edin.
-
-Fork’unuza push edin.
-
-Pull Request açın.
-
-Kodlama standartlarına uyduğunuzdan emin olun (bkz: CONTRIBUTING.md).
-
-License / Lisans
-MIT Lisansı altında lisanslanmıştır.
-
-Acknowledgements / Teşekkürler
-XSS Hunter ve PayloadAllTheThings projelerine ilham için.
-
-Playwright / Selenium ekiplerine test otomasyonu desteği için.
-
-Güvenlik araştırmaları topluluğuna teşekkürler.
-
-Contact / İletişim
-Proje Sorumlusu: Adınız veya Organizasyon - e-posta@adresiniz.com
-Hata mı buldunuz? Bir issue açmaktan çekinmeyin.
