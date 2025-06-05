@@ -5,8 +5,23 @@ Tersine Mühendislik - FİNAL Projesi
 Farklı XSS payload’larını otomatik olarak test eden bir araç. Bir URL'ye gidip param=value yerine 50'den fazla XSS payload'ı dener. Başarılı olursa "vulnerable" olarak raporlar.
 
 # Features / Özellikler
-🔎 Otomatik XSS Taraması
-50+ payload ile URL parametrelerini test eder.
+Feature 1: Otomatik XSS Taraması
+Belirtilen URL'de 50+ XSS payload’ı ile test yapar.
+
+Feature 2: Zafiyet Tespiti
+Başarılı payload'ları belirleyip "vulnerable" olarak raporlar.
+
+Feature 3: XSS Türü Analizi
+Reflected, Stored ve DOM XSS türlerini ayırt eder.
+
+Feature 4: Tarayıcı Otomasyonu
+Playwright veya Selenium ile gerçek tarayıcıda test gerçekleştirir.
+
+Feature 5: Parametre Odaklı Test
+Belirli URL parametrelerine odaklanarak tarama yapar.
+
+Feature 6: Raporlama Desteği
+Sonuçları dışa aktarır; log veya metin dosyası olarak kaydeder.
 
 # Zafiyet Tespiti
 Başarılı payload’ları tespit eder ve raporlar.
