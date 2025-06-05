@@ -44,7 +44,7 @@ Yolculuğu görmek için ROADMAP.md dosyasına göz atın.
 
 ### 📥 Clone the Repository / Depoyu Klonlayın
 
-```bash
+
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd YOUR_REPO
 
@@ -61,7 +61,7 @@ Aşağıdaki adımları takip ederek XSS tarama aracınızı çalıştırabilirs
 
 ### 🔧 Run the Project / Projeyi Çalıştırın
 
-```bash
+
 python main.py --url "http://hedef-site.com/?param=*" --browser playwright --output results.txt
 
 
