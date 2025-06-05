@@ -40,6 +40,18 @@ Yolculuğu görmek için ROADMAP.md dosyasına göz atın.
 | Playwright vs Selenium Karşılaştırması | [researchs/browser-tools-comparison.md](researchs/browser-tools-comparison.md)  | XSS testlerinde kullanılan iki otomasyon aracının farkları. / Tarayıcı otomasyonu araçlarının değerlendirilmesi. |
 | Add More Research                | *Link to your other research files*        | *Description of the research*                                                         |
 
+## Installation / Kurulum
+
+### 📥 Clone the Repository / Depoyu Klonlayın
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+cd YOUR_REPO
+
+python -m venv venv
+source venv/bin/activate  # Windows için: venv\Scripts\activate
+
+pip install -r requirements.txt
 
 
 
