@@ -81,5 +81,35 @@ Başarılı payload’lar ve varsa XSS türleri burada detaylı şekilde listele
 💡 Not: Playwright kullanıyorsanız, ilk çalıştırmadan önce aşağıdaki komutu çalıştırmayı unutmayın:
 playwright install
 
+Topluluk katkılarını memnuniyetle karşılıyoruz! Katkıda bulunmak için:
+
+Depoyu fork'layın.
+
+Fork’unuzu kendi bilgisayarınıza klonlayın.
+
+Yeni bir branch oluşturun (feature/ozellik-adi).
+
+Değişikliklerinizi yapın ve açıklayıcı commit mesajları yazın.
+
+Değişikliklerinizi fork’unuza push edin.
+
+Ana depoya bir Pull Request (PR) açın.
+
+Kodlama standartlarına uyduğunuzdan emin olun (bkz: CONTRIBUTING.md).
+
+## License / Lisans
+Licensed under the MIT License.
+MIT Lisansı altında lisanslanmıştır.
+
+
+## Acknowledgements / Teşekkürler (Optional)
+Thanks to:
+
+Awesome Library: For enabling X.
+Inspiration Source.
+Special thanks to...
+Teşekkürler: Harika kütüphaneler ve ilham kaynakları için.
+
+
 
 
