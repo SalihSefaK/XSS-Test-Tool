@@ -48,10 +48,22 @@ Yolculuğu görmek için ROADMAP.md dosyasına göz atın.
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd YOUR_REPO
 
+🧪 Set Up Virtual Environment / Sanal Ortam Kurulumu (Önerilen)
 python -m venv venv
 source venv/bin/activate  # Windows için: venv\Scripts\activate
 
 pip install -r requirements.txt
+
+
+## 🚀 Usage / Kullanım
+
+Aşağıdaki adımları takip ederek XSS tarama aracınızı çalıştırabilirsiniz:
+
+### 🔧 Run the Project / Projeyi Çalıştırın
+
+```bash
+python main.py --url "http://hedef-site.com/?param=*" --browser playwright --output results.txt
+
 
 
 
