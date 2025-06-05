@@ -1,13 +1,13 @@
-# 🛣️ ROADMAP.md: Python ile DNS Spoofing Özelliklerini Geliştirme ve Test Etme
+#  ROADMAP.md: Python ile DNS Spoofing Özelliklerini Geliştirme ve Test Etme
 
-## 🔰 Giriş
+##  Giriş
 
 Bu yol haritası, Kali Linux’ta bulunan DNS spoofing araçlarından (Ettercap, Dnsspoof, DNSChef, Bettercap, DDSpoof ve SET) esinlenerek, Python kullanılarak bu özelliklerin nasıl geliştirileceği ve test edileceğine dair detaylı bir rehber sunar.  
-⚠️ **Önemli Uyarı:** Bu bilgiler yalnızca eğitim ve araştırma amaçlıdır. Yetkisiz kullanımı yasa dışı ve etik dışıdır. Herhangi bir ağda veya sistemde test yapmadan önce açık izin almanız zorunludur.
+**Önemli Uyarı:** Bu bilgiler yalnızca eğitim ve araştırma amaçlıdır. Yetkisiz kullanımı yasa dışı ve etik dışıdır. Herhangi bir ağda veya sistemde test yapmadan önce açık izin almanız zorunludur.
 
 ---
 
-## ⚙️ Ön Koşullar
+
 
 - **Python 3.x**
 - **Kütüphaneler:**
@@ -22,7 +22,7 @@ Bu yol haritası, Kali Linux’ta bulunan DNS spoofing araçlarından (Ettercap,
 
 ---
 
-## 🧪 Test Ortamını Kurma
+##  Test Ortamını Kurma
 
 1. **VirtualBox kurulumu**
 2. **Sanal Makineler:**
@@ -32,9 +32,9 @@ Bu yol haritası, Kali Linux’ta bulunan DNS spoofing araçlarından (Ettercap,
 
 ---
 
-## 🧱 Temel Bileşenlerin Geliştirilmesi
+## Temel Bileşenlerin Geliştirilmesi
 
-### 🔌 ARP Spoofing Betiği
+###  ARP Spoofing Betiği
 
 ```python
 from scapy.all import *
